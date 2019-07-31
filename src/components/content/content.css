@@ -1,0 +1,12 @@
+.Content{
+    text-align: center;
+    background-color: #411f9e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    width: 100%;
+  }
+  

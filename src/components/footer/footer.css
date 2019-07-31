@@ -1,0 +1,14 @@
+.Footer{
+    text-align: center;
+  }
+  
+  .App-Footer {
+    background-color: #213d25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    width: 100%;
+  }
+  

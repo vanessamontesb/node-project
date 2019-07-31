@@ -1,0 +1,24 @@
+.Header{
+  text-align: center;
+}
+
+.App-header {
+  background-color: #c7625a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100px;
+  width: 100%;
+}
+
+.Menu{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+.Menu li {
+  display: inline-block;
+  padding-right: 30px;
+}
