@@ -1,9 +1,15 @@
 import React from 'react';
 import {render} from 'react-dom';
+import {BrowserRouter} from 'react-router-dom'
+
 import './index.css';
-import App from './components/App';
+
 import * as serviceWorker from './serviceWorker';
 import AppRoutes from './routes'
 
-render(<App />, document.getElementById('root'));
+render(<BrowserRouter>
+    <AppRoutes/>
+</BrowserRouter>, 
+    
+document.getElementById('root'));
 serviceWorker.unregister();

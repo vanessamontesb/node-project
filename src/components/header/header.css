@@ -3,12 +3,12 @@
 }
 
 .App-header {
-  background-color: #c7625a;
+  background-color: #343a40;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  height: 100px;
+  height: 60px;
   width: 100%;
 }
 
@@ -21,4 +21,13 @@
 .Menu li {
   display: inline-block;
   padding-right: 30px;
+}
+
+.Menu li a{
+  text-decoration: none;
+  color:#9a9da0
+}
+
+.Menu  li a:hover{
+  color:#EEE;
 }
